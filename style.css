@@ -1,0 +1,32 @@
+*{
+    font-family: 'Oswald', sans-serif; 
+}
+header{
+    background-color: lightcyan;
+}
+#banner div img{
+        width: 100%;
+    }
+.heading-title{
+    font-size: 4rem;
+}
+button{
+    border-radius: 8px;
+}
+.card{
+    border-radius: 10px;
+    transition: transform 1s;
+}
+.card:hover{
+    transform: scale(1.05)
+}
+.casual-image{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    #banner div img{
+        width: 500px;
+    }
+}
